@@ -1,0 +1,22 @@
+# macOS
+.DS_Store
+
+# Xcode
+build/
+DerivedData/
+*.xcuserstate
+xcuserdata/
+*.xccheckout
+*.moved-aside
+*.hmap
+
+# Swift Package Manager
+.build/
+Packages/
+.swiftpm/
+
+# Secrets and local configuration
+Secrets.swift
+.env
+.env.*
+!.env.example
